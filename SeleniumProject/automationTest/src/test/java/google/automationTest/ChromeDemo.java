@@ -7,11 +7,11 @@ import org.testng.annotations.Test;
 public class ChromeDemo {
 
 	
-@Test
-public void test()
+
+public static void main(String args[])
 {
 
-  System.setProperty("webdriver.chrome.driver","F:\\Selenium\\drivers\\chromedriver.exe");
+  System.setProperty("webdriver.chrome.driver","D:\\Selenium\\Drivers\\chromedriver.exe");
 
 
   WebDriver driver = new ChromeDriver();

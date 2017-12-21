@@ -5,11 +5,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class GeckoDriverDemo {
-	@Test
-	public void testFirefox()
+	
+	public static void main(String args[])
 	{
 
-	    System.setProperty("webdriver.gecko.driver","F:\\Selenium\\drivers\\geckodriver.exe");
+	    System.setProperty("webdriver.gecko.driver","D:\\Selenium\\Drivers\\geckodriver.exe");
 
 	  WebDriver driver = new FirefoxDriver();
 

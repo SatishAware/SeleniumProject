@@ -49,7 +49,8 @@ public class hashmapValues {
 	
 	public static void storeEmails(HashMap<String, List<String>> subjBody) throws FileNotFoundException, IOException
 	{
-		File file = new File("F:\\Selenium\\DataSheets\\Email Data.xlsx");
+		//File file = new File("F:\\Selenium\\DataSheets\\Email Data.xlsx");
+		File file = new File("D:\\TestData.xlsx");
 		XSSFWorkbook wb = new XSSFWorkbook(new FileInputStream(file));
 		XSSFSheet sh = wb.getSheetAt(0);
 		int row = 0;
